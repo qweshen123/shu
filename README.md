@@ -1,24 +1,22 @@
 # 基于vue开发小说app
 
-## Project setup
+# 技术栈
+vue2 + vuex + vue-router + webpack + ES6/7 + axios + sass + flex + svg
+
+## 项目运行
+下载依赖库
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+运行项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# 关于接口数据
+
+
