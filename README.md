@@ -24,3 +24,40 @@ npm run serve
 #### 搜索
 #### 评论
 #### 浏览小说
+
+### 项目布局
+```
+├── public                                      // webpack配置文件
+├── src                                         // 源码目录
+│   ├── assets                                  // 组件
+│   │   ├── images                              // 头像图片
+│   │   │   ├── 7b9800.jpg                      // 图片
+│   │   ├── js                                  // 自定义方法
+│   │   │   ├── changtime.js                    // 更改时间显示格式
+│   ├── components                              // 公共组件
+│   │   ├── Blank.vue                           // 空白格组件
+│   │   ├── Chapter.vue                         // 目录转跳组件
+│   │   ├── Chapters.vue                        // 文章目录组件
+│   │   ├── ClassHeader.vue                     // 页面头部组件
+│   │   ├── Goditem.vue                         // 用户评论组件
+│   │   ├── IndexIcon.vue                       // 搜索排名组件
+│   │   ├── MineItem.vue                        // 用户个人选项组件
+│   │   └── Tag.vue                             // 标签组件
+│   ├── router                                  
+│   │   ├── index.js                            // 路由配置
+│   ├── store                                  
+│   │   ├── action.js                           // 异步操作函数配置
+│   │   ├── index.js                            // vuex配置
+│   │   ├── mutation-type.js                    // 函数名
+│   │   └── mutation.js                         // 函数方法
+│   ├── utils                                  
+│   │   ├── WebIM.js                            // 环信配置
+│   │   └── WebIM.config.js                     // 环信配置
+│   ├── views                                  
+│   │   ├── bookcity                          
+│   │   │   ├── directory
+│   │   │   │   ├── BookTxt.vue                 // 内容页
+│   │   │   │   └── Directiory.vue              // 目录页
+│   │   └── WebIM.config.js                     // 环信配置
+
+```
