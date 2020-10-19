@@ -59,7 +59,25 @@ npm run serve
 │   │   │   │   ├── BookTxt.vue                 // 内容页
 │   │   │   │   └── Directiory.vue              // 目录页
 │   │   │   ├── BookSingle.vue                  // 小说主页
-│   │   │   ├── Classik,,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]i,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,]ik,]ik,],]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,],]ik,]ik,]ik,]ik,],]ik,],]ik,]ik,]ik,].vue                  // 小说主页
-│   │   └── WebIM.config.js                     // 环信配置
-
+│   │   │   ├── ClassBook.vue                   // 小说路由转跳
+│   │   │   └── ClassNav.vue                     // 小说导航
+│   │   ├── BookCity.vue                        // 书城主页
+│   │   ├── Else.vue                        // 其他页面
+│   │   ├── Female.vue                        // 女生页面
+│   │   ├── Male.vue                           // 男生页面
+│   │   └── Synthesize.vue                     // 综合页面
+│   │   ├── community
+│   │   │   ├── CommentDetails.vue                   // 评论详情主页
+│   │   │   ├── CommentsItem.vue                   // 其他评论组件
+│   │   │   └── Community.vue                     // 评论主页
+│   │   ├── mine
+│   │   │   ├── History.vue                   // 收藏组件
+│   │   │   └── Mine.vue                     // 我的主页
+│   │   ├── Login.vue                        // 登录主页
+│   │   └── SearchContent.vue                // 搜索组件
+│   ├── App.vue                              // 页面入口文件
+│   ├── elementUi.config.js                  // 饿了么ui配置文件
+│   ├── main.js                              // 程序入口文件
+│   ├── vant.config.js                       // vant-ui配置文件
+├── vue.config.js                            // vue配置(代理)
 ```
