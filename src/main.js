@@ -30,15 +30,15 @@ if(userInfo){
 
   store.dispatch('onAutoLoginUser',userInfo)
 }
-// 登录验证
-router.beforeEach((to, from, next) => {
-  // 先判断用户是否一登录
-  if(store.state.userName || to.name === 'Login'){
-    next()  
-  }else{
-    next('/login')
-  }
-})
+// // 登录验证
+// router.beforeEach((to, from, next) => {
+//   // 先判断用户是否一登录
+//   if(store.state.userName || to.name === 'Login'){
+//     next()  
+//   }else{
+//     next('/login')
+//   }
+// })
 
 
 

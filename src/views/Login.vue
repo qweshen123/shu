@@ -47,7 +47,7 @@ export default {
         onSubmit(){
             this.$refs.loginForm.validate((valid) => {
           if (valid) {
-            alert('表单通过!');
+            // alert('表单通过!');
             if(this.status == REGISTER){
                 this.onRegisterUser(this.form)
                 .then((res)=>console.log('成功',res))
